@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: karla sans-serif;
+    min-height: 100vh;
+    font-size: 16px;
+}
+.ul{
+    list-style-type: none;
+}
+.card{
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 15px 20px 10px rgba(37,43,70,0.1);
+}
+.community{
+padding: 40px;
+}
+h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 25px;
+    /* color: cyan; */
+}
+ /* h3{
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 15px;
+    opacity: 0.9; 
+} */
+.community h3{
+  font-weight: bold;
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 16px;
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+    line-height: 30px;
+}
+.plan{
+    display: flex;
+}
+.sub{
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+.sub h3{
+    padding-bottom: 20px;
+}
+.price{
+    display: inline-flex;
+}
+.price-p{
+    padding: 8px 0px 0px 12px;
+}
+.access{
+    padding: 10px 0px 20px 0px ;
+}
+button{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-family: karla, sans-serif;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px;
+    color: #fff;
+    border: none;
+}
+.Why{
+     padding: 40px;
+     background-color: hsl(179, 62%, 43%);
+     color: #fff;
+     opacity: 0.7;
+}
+.Why h3{
+padding-bottom: 20px;
+opacity: 0.9;
+}
+li{
+    padding-bottom: 3px;
+    font-size: 16px;
+}
+
+
+/* @media(min-width:768px){
+    .Why, .sub{
+        width:50%;
+    }
+}
+@media(max-width:768px){
+    .card{
+        width: 90%;
+        margin-top:40px;
+    }
+    .plan{
+        display:flex;
+        flex-direction: column;
+    }
+    .community{
+        padding-right: 20px;
+    }
+    .Why,.sub{
+        width: 100%;
+    }
+} */
